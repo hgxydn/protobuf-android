@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package rtcm;
+
+option java_package = "com.fty.utils";
+option java_outer_classname = "Out";
+option optimize_for = LITE_RUNTIME;
+
+
+message User{
+  Card    card = 1;
+  string   name = 2;
+  int32    age = 3;
+  bool     hasCar = 4;
+  repeated int32  likeNums = 11;
+}
+message Card{
+  int32  id=1;
+  double cash=2;
+  string  sign=3;
+  float  foo=4;
+}
