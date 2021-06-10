@@ -1,5 +1,5 @@
 # protobuf-android
-Use Google Protocol Buffer to Transport data on Android
+Use Google Protocol Buffer to Transport Data for Android NDK Development
 
 protobuf-android使用说明
 
